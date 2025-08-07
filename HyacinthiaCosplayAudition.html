@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HYACINE</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <img src="https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Character_Hyacine_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20250521031729" alt="HYACINE" style="display: block; margin: 0 auto;">
+         <h1 style="text-align: center;">Welcome to HYACINE Cosplay Audition</h1>
+         <div style="display: flex; align-items: flex-start; justify-content: center; margin-top: 30px;">
+    <iframe width="400" height="225" src="https://www.youtube.com/embed/GhJOJxHZ20E" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    <div style="margin-left: 30px; max-width: 500px;">
+        <p>
+            Hyacine, full name Hyacinthia, is a playable character in Honkai: Star Rail.
+
+As the city-state in the clouds crumbles through time, the Twilight Courtyard opens its gates once more, bringing a glimmer of light to Evernight. You, Physician Hyacinthia, Chrysos Heir who guards the Sky Coreflame, must inherit your ancestors' will and mend the torn fabric of dusk and dawn.
+
+May the rainbow light pour down, dissolve all grudges, and bring the dawn back to this land.
+        </p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: row-reverse; align-items: flex-start; justify-content: center; margin-top: 30px;">
+    <img src="https://pbs.twimg.com/media/GoPkMD6acAAoXSi?format=jpg&name=large" 
+         alt="HYACINE Cosplay Example" style="width: 350px; border-radius: 8px;">
+    <div style="margin-right: 30px; max-width: 500px;">
+        <p>
+            Here is an example of a HYACINE cosplay. Notice the attention to detail in the costume and the vibrant colors that capture the character’s essence. We encourage you to use your creativity and bring your own interpretation to life!
+        </p>
+        <ul>Rules & Regulations:
+            <li>Costumes should be respectful and avoid offensive, discriminatory, or overly revealing content. </li>
+            <li>Avoid costumes with sharp objects, flammable materials, or anything that could pose a safety risk to yourself or others. </li>
+            <li>Be respectful of other cosplayers, attendees, and the event organizers. This includes not touching other people's costumes without permission, and being mindful of your surroundings. </li>
+            <li>If props are allowed, they should be safe and not cause any harm or damage. </li>
+            <li>May require costumes to be handmade or have a significant handmade component. </li>
+            <li>If participating in a performance, be prompt, and mindful of stage cleanliness and prop management. </li>
+        </ul>
+    </div>
+</div>
+<h2 style="text-align: center;">Categories</h2>
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+    <div style="max-width: 500px;">
+        <ol>
+            <li>Age 12-15</li>
+            <li>Age 16-17</li>
+            <li>Age 18+</li>
+        </ol>
+    </div>
+</div>
+<fieldset>
+    <legend style="text-align: center;">Registration</legend>
+    <form action="submit_registration.php" method="post" style="max-width: 800px; margin: 0 auto;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="max-width: 500px;">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Full Name" required><br><br>
+                
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" min="12" max="100" placeholder="Age" required><br><br>
+
+                <label for="birth date">Birth Date:</label><br>
+                <input type="text" id="birth date" name="birth date" placeholder="Enter Birth Date" required><br><br>
+
+                <label for="gender">Gender:</label><br>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select><br><br>
+
+                <label for="current-date">Current Date:</label><br>
+                <input type="text" id="current-date" name="current-date" value="XX/XX/XX" readonly><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" pattern="@gmail.com" placeholder="Enter Email Address" required><br><br>
+            </div>
+            <div style="margin-left: 30px; min-width: 250px;">
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" placeholder="Enter Address" required><br><br>
+                
+                <label for="contact">Contact Number:</label><br>
+                <input type="tel" id="contact" name="contact" placeholder="Enter Contact Number" required><br><br>
+                
+                <label for="other-details">Other Details:</label><br>
+                <textarea id="other-details" name="other-details" placeholder="Enter other details..." maxlength="500" rows="5" style="width: 100%;"></textarea><br><br>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</fieldset>
+    </body>
+</html>
